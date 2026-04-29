@@ -48,8 +48,176 @@
     </header>
 
     <main>
-        <h1>Our Menu</h1>
-    </main>
+    <!-- Breadcrumb -->
+    <section class="page-header">
+        <div class="container">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Assortment</li>
+                </ol>
+            </nav>
+            <h1 class="page-title">Our Menu</h1>
+            <p class="page-subtitle">Specialty coffees, seasonal drinks and house-made desserts.</p>
+        </div>
+    </section>
+
+    <!-- Filters -->
+    <section class="menu-filters">
+        <div class="container">
+            <div class="filter-tabs">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="espresso">Espresso</button>
+                <button class="filter-btn" data-filter="filter-coffee">Filter Coffee</button>
+                <button class="filter-btn" data-filter="cold-brew">Cold Brew</button>
+                <button class="filter-btn" data-filter="tea">Tea &amp; Other</button>
+                <button class="filter-btn" data-filter="pastries">Pastries</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Beverages -->
+    <section class="menu-section">
+        <div class="container">
+            <p class="section-label">Beverages</p>
+            <h2 class="section-title">Coffee &amp; Drinks</h2>
+            <div class="section-underline"></div>
+            <div class="row mt-4">
+                <div class="col-lg-3 col-md-6 mb-4 menu-item" data-category="espresso">
+                    <div class="menu-card">
+                        <div class="menu-card-image">
+                            <span>Flat White</span>
+                        </div>
+                        <div class="menu-card-body">
+                            <div class="menu-card-tag">Espresso</div>
+                            <h3 class="menu-card-title">Flat White</h3>
+                            <div class="menu-card-footer">
+                                <span class="menu-card-price">85 ₴</span>
+                                <button class="btn-add">ADD</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 menu-item" data-category="espresso">
+                    <div class="menu-card">
+                        <div class="menu-card-image">
+                            <span>Cortado</span>
+                        </div>
+                        <div class="menu-card-body">
+                            <div class="menu-card-tag">Espresso</div>
+                            <h3 class="menu-card-title">Cortado</h3>
+                            <div class="menu-card-footer">
+                                <span class="menu-card-price">70 ₴</span>
+                                <button class="btn-add">ADD</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 menu-item" data-category="cold-brew">
+                    <div class="menu-card">
+                        <div class="menu-card-image">
+                            <span>Cold Brew Tonic</span>
+                        </div>
+                        <div class="menu-card-body">
+                            <div class="menu-card-tag">Cold Brew</div>
+                            <h3 class="menu-card-title">Cold Brew Tonic</h3>
+                            <div class="menu-card-footer">
+                                <span class="menu-card-price">95 ₴</span>
+                                <button class="btn-add">ADD</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 menu-item" data-category="tea">
+                    <div class="menu-card">
+                        <div class="menu-card-image">
+                            <span>Matcha Latte</span>
+                        </div>
+                        <div class="menu-card-body">
+                            <div class="menu-card-tag">Tea &amp; Other</div>
+                            <h3 class="menu-card-title">Matcha Latte</h3>
+                            <div class="menu-card-footer">
+                                <span class="menu-card-price">90 ₴</span>
+                                <button class="btn-add">ADD</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Desserts -->
+    <section class="menu-section menu-section-alt">
+        <div class="container">
+            <p class="section-label">Desserts &amp; Pastries</p>
+            <h2 class="section-title">House-Made Sweets</h2>
+            <div class="section-underline"></div>
+            <div class="row mt-4">
+                <div class="col-lg-3 col-md-6 mb-4 menu-item" data-category="pastries">
+                    <div class="menu-card">
+                        <div class="menu-card-image">
+                            <span>Odesa Honey Cake</span>
+                        </div>
+                        <div class="menu-card-body">
+                            <div class="menu-card-tag">Signature</div>
+                            <h3 class="menu-card-title">Odesa Honey Cake</h3>
+                            <div class="menu-card-footer">
+                                <span class="menu-card-price">110 ₴</span>
+                                <button class="btn-add">ADD</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 menu-item" data-category="pastries">
+                    <div class="menu-card">
+                        <div class="menu-card-image">
+                            <span>Black Sea Tiramisu</span>
+                        </div>
+                        <div class="menu-card-body">
+                            <div class="menu-card-tag">Signature</div>
+                            <h3 class="menu-card-title">Black Sea Tiramisu</h3>
+                            <div class="menu-card-footer">
+                                <span class="menu-card-price">120 ₴</span>
+                                <button class="btn-add">ADD</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 menu-item" data-category="pastries">
+                    <div class="menu-card">
+                        <div class="menu-card-image">
+                            <span>Butter Croissant</span>
+                        </div>
+                        <div class="menu-card-body">
+                            <div class="menu-card-tag">Pastry</div>
+                            <h3 class="menu-card-title">Butter Croissant</h3>
+                            <div class="menu-card-footer">
+                                <span class="menu-card-price">75 ₴</span>
+                                <button class="btn-add">ADD</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 menu-item" data-category="pastries">
+                    <div class="menu-card">
+                        <div class="menu-card-image">
+                            <span>Seasonal Fruit Tart</span>
+                        </div>
+                        <div class="menu-card-body">
+                            <div class="menu-card-tag">Seasonal</div>
+                            <h3 class="menu-card-title">Seasonal Fruit Tart</h3>
+                            <div class="menu-card-footer">
+                                <span class="menu-card-price">105 ₴</span>
+                                <button class="btn-add">ADD</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
 
     <footer>
         <footer class="site-footer">
