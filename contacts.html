@@ -48,8 +48,149 @@
     </header>
 
     <main>
-        <h1>Find Us in Odesa</h1>
-    </main>
+    <!-- Breadcrumb -->
+    <section class="page-header">
+        <div class="container">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Contacts</li>
+                </ol>
+            </nav>
+            <h1 class="page-title">Find Us in Odesa</h1>
+            <p class="page-subtitle">We are located in the cultural heart of Odesa.</p>
+        </div>
+    </section>
+
+    <!-- Info and Map -->
+    <section class="contacts-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <div class="contact-info-card">
+                        <div class="contact-info-icon">&#128205;</div>
+                        <div class="contact-info-body">
+                            <div class="contact-info-label">Address</div>
+                            <div class="contact-info-value">вул. Дерибасівська 15, Одеса, 65026</div>
+                            <a href="https://maps.google.com" target="_blank" class="contact-info-link">Get Directions</a>
+                        </div>
+                    </div>
+                    <div class="contact-info-card">
+                        <div class="contact-info-icon">&#128222;</div>
+                        <div class="contact-info-body">
+                            <div class="contact-info-label">Phone</div>
+                            <a href="tel:+380630000000" class="contact-info-value">+380 (63) 000-00-00</a>
+                            <div class="contact-info-sub">During opening hours</div>
+                        </div>
+                    </div>
+                    <div class="contact-info-card">
+                        <div class="contact-info-icon">&#9993;</div>
+                        <div class="contact-info-body">
+                            <div class="contact-info-label">Email</div>
+                            <a href="mailto:hello@auraspace.od.ua" class="contact-info-value">hello@auraspace.od.ua</a>
+                            <div class="contact-info-sub">Reply within 24 hours</div>
+                        </div>
+                    </div>
+                    <div class="contact-info-card">
+                        <div class="contact-info-icon">&#128336;</div>
+                        <div class="contact-info-body">
+                            <div class="contact-info-label">Hours</div>
+                            <div class="contact-info-value">Mon–Fri: 08:00–22:00</div>
+                            <div class="contact-info-sub">Sat–Sun: 09:00–23:00</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="map-label">Our Location</div>
+                    <div class="map-placeholder">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2748.123456789!2d30.7326!3d46.4825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDbCsDI4JzU3LjAiTiAzMMKwNDMnNTcuNCJF!5e0!3m2!1sen!2sua!4v1234567890"
+                            width="100%"
+                            height="420"
+                            style="border:0;"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"
+                            title="AuraSpace Cafe location on Google Maps">
+                        </iframe>
+                    </div>
+                    <div class="map-address-bar">
+                        <span>&#128205; вул. Дерибасівська 15, Одеса</span>
+                        <a href="https://maps.google.com" target="_blank" class="map-open-link">Open in Google Maps</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="contact-form-section">
+        <div class="container">
+            <p class="section-label">Send a Message</p>
+            <h2 class="section-title">Contact Form</h2>
+            <div class="section-underline"></div>
+            <form
+                action="https://formspree.io/f/mojraqoz"
+                method="POST"
+                class="contact-form mt-4">
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label for="first-name" class="form-label">First Name</label>
+                        <input
+                            type="text"
+                            id="first-name"
+                            name="first_name"
+                            class="form-control"
+                            autocomplete="given-name"
+                            required>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="last-name" class="form-label">Last Name</label>
+                        <input
+                            type="text"
+                            id="last-name"
+                            name="last_name"
+                            class="form-control"
+                            autocomplete="family-name"
+                            required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label for="email" class="form-label">Email Address</label>
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            class="form-control"
+                            autocomplete="email"
+                            required>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="phone" class="form-label">Phone Number</label>
+                        <input
+                            type="tel"
+                            id="phone"
+                            name="phone"
+                            class="form-control"
+                            autocomplete="tel"
+                            pattern="[+]?[0-9\s\(\)\-]{7,20}">
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea
+                        id="message"
+                        name="message"
+                        class="form-control"
+                        rows="5"
+                        required></textarea>
+                </div>
+                <button type="submit" class="btn-primary-dark">Send Message</button>
+            </form>
+        </div>
+    </section>
+</main>
 
     <footer>
         <footer class="site-footer">
